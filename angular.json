@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "kernai-angular"
+  "defaultProject": "kernai-angular",
+  "cli": {
+    "analytics": "963aa4e9-45d1-4a76-99d9-2a30aa6611d2"
+  }
 }
