@@ -25,6 +25,7 @@ export class HeroesComponent implements OnInit {
   }
 
   getHeroes(): void {
+    // wait for service to emit asyc
     this.heroService.getHeroes()
       .subscribe(heroes => this.heroes = heroes)
   }
